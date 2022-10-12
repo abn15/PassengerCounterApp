@@ -1,12 +1,32 @@
-
 body {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRepDjayMnzRkTQ-A-ydrJHkqN87fFNACJLFw&usqp=CAU");
-    background-size: cover;
+    background-size: cover; 
+     /* background: #44A08D;   */
+    /*background: -webkit-linear-gradient(to right, #093637, #44A08D); 
+    background: linear-gradient(to right, #093637, #44A08D);  */
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
+.passenger-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    width: 50%;
+    top: 25%;
+    margin: auto;
+    padding: 10px;
+    background: transparent;
+    color: #000;
+    position: absolute;
+    left: 25%;
+    text-align: center;
+    border-radius: 5px;
+}
 
 h1 {
     margin-top: 10px;
@@ -27,7 +47,14 @@ button {
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
+    margin: 5px;
     border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
 }
 
 #increment-btn {
@@ -36,4 +63,10 @@ button {
 
 #save-btn {
     background: darkgreen;
+}
+
+.total {
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px;
 }
