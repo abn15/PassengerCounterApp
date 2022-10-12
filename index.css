@@ -48,6 +48,8 @@ button {
     border-radius: 5px;
 }
 
+/* added hover effect */
+
 button:hover {
     cursor: pointer;
     transform: scale(1.1);
