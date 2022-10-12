@@ -1,6 +1,10 @@
 body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRepDjayMnzRkTQ-A-ydrJHkqN87fFNACJLFw&usqp=CAU");
-    background-size: cover; 
+    background-image: url("https://c1.wallpaperflare.com/preview/93/533/221/train-passenger-train-sbb-db.jpg");
+    /* background-image: url("https://wallpapercave.com/wp/wp4491116.jpg"); */
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size:cover;
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
