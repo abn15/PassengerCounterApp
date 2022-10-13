@@ -5,10 +5,10 @@ body {
     margin: 0;
     background-image: url("7.jpg");
     /* background-image: url("https://wallpapercave.com/wp/wp4491116.jpg"); */
-    
+
     /* background-position: center; */
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     font-weight: bolder;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -16,58 +16,64 @@ body {
     font-size: 1rem;
     box-sizing: border-box;
     color: #0A2D4C;
-    /* background: #0A2D4C; */
-    /* background-blend-mode: overlay, overlay, difference, normal; */
-
 }
-.navbar{
+
+.navbar {
     background: linear-gradient(110deg, #3F72AF, #112D4E);
     display: flex;
     justify-content: space-between;
-    height: 5em; 
+    height: 5em;
 }
 
-.passenger{
-        padding-left: .5em;
-        padding-right: .5em;
-        font-size: 2rem;
-        color: #EEF1FF;
-        
+.passenger {
+    padding-left: .5em;
+    padding-right: .5em;
+    font-size: 2rem;
+    color: #EEF1FF;
 }
-h2{
+
+h2 {
     font-size: 2.5rem;
 }
 
-.col2{
-    
+.col2 {
+
     display: flex;
     flex-direction: column;
     position: absolute;
     right: 5em;
-    top: 10em;
+    top: 7em;
     text-align: center;
 }
-.total{
+
+.total {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
     font-size: 1.8rem;
+    padding: .4em 0;
 }
 
-.counter{
+h3 {
+    margin: 0;
+}
+
+.counter {
     text-align: center;
 }
 
-.total-num{
+.total-num {
+    margin: 0;
     padding-top: .4em;
     padding-left: .6em;
 }
-.entry{
+
+.entry {
     font-size: 1.8rem;
 }
 
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
@@ -97,6 +103,20 @@ h2{
     transform: scale(1.09);
     /* background-color: #f18119; */
     /* color: #404040; */
+}
+
+.kid {
+    padding-top: 2em;
+    font-size: 1.2rem;
+}
+
+.kid-btn {
+    margin-left: 1em;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    width: 8em;
+    height: 2.5em;
 }
 
 /* h1 {

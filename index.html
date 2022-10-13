@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <link rel="stylesheet" href="index.css" >
-   
+    <link rel="stylesheet" href="index.css">
+
 </head>
+
 <body>
     <div class="navbar">
-
         <h1 class="passenger">Passenger Counter</h1>
         <h1 class="passenger">Hacktoberfest Railway..🌎</h1>
     </div>
     <div class="col2">
-
-        <h2><strong>People Entered:</strong></h2>
-        <h2 id="count-el" class="counter">0</h2>
+        <h1><strong>People Entered:</strong></h1>
+        <h2 id="count-el">0</h2>
         <div class="button">
 
-            <button id="increment-btn " class="btn btn-color clr1" onclick="increment()">INCREMENT</button>
-            <Button id="save-btn " class="btn btn-color clr2" onclick="save()">SAVE</button>
+            <button id="increment-btn" class="btn btn-color " onclick="increment(), adultincrement()">INCREMENT</button>
+
+            <Button id="save-btn" class="btn btn-color " onclick="save()">SAVE</button>
         </div>
-        <p id="save-el" class="entry">Previous Entries: </p>
+        <div class="button kid">
+
+            Hey there kid: <button id="increment-btn " class=" btn-color kid-btn"
+                onclick="childincrement(), increment()">INCREMENT</button>
+        </div>
+        <p id="save-el" class="entry">Previous Entries : </p>
         <div class="total">
-            
-            <h3 >Total Passenger Entries👥: </h3>
-            <p id="total-el" class="total-num">0 </p>
+            <h3>Total Passenger Entries 👥 : </h3>
+            <p id="total-el" class="total-num"></p>
         </div>
-       
+        <div class="total">
+
+            <h3>Children entered :</h3>
+            <p class="total total-num" id="child-el"></p>
+        </div>
+
+        <div class="total">
+
+            <h3>Adults entered :</h3>
+            <p class="total total-num" id="adult-el"></p>
+        </div>
+
+
+
+
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>
