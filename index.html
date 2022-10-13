@@ -8,11 +8,23 @@
     <div class="passenger-detail">
         <h1><strong>People Entered:</strong></h1>
         <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="increment-btn" onclick="increment(), adultincrement()">INCREMENT</button>
+        
         <Button id="save-btn" onclick="save()">SAVE</button>
+        
+        Hey there kid: <button id="increment-btn" onclick="childincrement(), increment()">INCREMENT</button>
+        
         <p id="save-el">Previous Entries : </p>
         <h3>Total Passenger Entries 👥 : </h3>
         <p class="total" id="total-el"></p>
+        
+        <h3>Adults entered :</h3>
+        <p class="total" id="adult-el"></p>
+
+        <h3>Children entered :</h3>
+        <p class="total" id="child-el"></p>
+        
+        
     </div>
     <script src="index.js"></script>
 </body>
