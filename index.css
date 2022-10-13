@@ -21,8 +21,7 @@ body {
     top: 5%;
     margin: auto;
     padding: 10px;
-    background: transparent;
-    color: #000;
+    background: rgb(255, 255, 255, 0.4);
     position: absolute;
     left: 25%;
     text-align: center;
