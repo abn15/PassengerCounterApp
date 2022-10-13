@@ -1,19 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Passenger Counter</title>
    <link rel="stylesheet" href="index.css" >
    
 </head>
 <body>
-    <div class="passenger-detail">
-        <h1><strong>People Entered:</strong></h1>
-        <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
-        <Button id="save-btn" onclick="save()">SAVE</button>
-        <p id="save-el">Previous Entries : </p>
-        <h3>Total Passenger Entries 👥 : </h3>
-        <p class="total" id="total-el"></p>
-    </div>
+    <section class="section">
+        <div class="passenger-detail">
+            <h1><strong>People Entered:</strong></h1>
+            <h2 id="count-el">0</h2>
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <Button id="save-btn" onclick="save()">SAVE</button>
+            <p id="save-el">Previous Entries : </p>
+            <h3>Total Passenger Entries 👥 : </h3>
+            <p class="total" id="total-el"></p>
+        </div>
+        <div className="footer">
+            <div className="footside">
+                <p class="footname">Passenger Counter</p>
+                </div>
+            <div class="footside2">
+                <p class="footer_text">
+                   Connect with us
+                </p>
+                <div class="social">
+                    <div className="social_icon">
+                        <a title="FB" href="https://good.com">
+                            <img alt="lo" src="https://res.cloudinary.com/slmedia/image/upload/v1652302113/samples/food/facebook-16x16-761599_vlf1xl.png"/>
+                        </a>
+                    </div>
+                    <div className="social_icon">
+                        <a title="LI" href="https://good.com">
+                            <img alt="lo" src="https://res.cloudinary.com/slmedia/image/upload/v1652302113/samples/food/linkedin-16x16-761611_a8dv2c.png"/>
+                        </a>
+                    </div>
+                    <div className="social_icon">
+                        <a title="TW" href="https://good.com">
+                            <img alt="lo" src="https://res.cloudinary.com/slmedia/image/upload/v1652302113/samples/food/fa_twitter-16x16-761629_rhy95g.png"/>
+                        </a>
+                    </div>
+                    <div className="social_icon">
+                        <a title="GH" href="https://github.com/HridoyHazard/BetterColor">
+                            <img alt="lo" src="https://res.cloudinary.com/slmedia/image/upload/v1664749375/samples/food/github-16x16-761603_vwximd.png"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
     <script src="index.js"></script>
+
 </body>
 </html>
