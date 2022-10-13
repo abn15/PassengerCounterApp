@@ -1,8 +1,7 @@
-
 body {
     background-image: url("https://c1.wallpaperflare.com/preview/93/533/221/train-passenger-train-sbb-db.jpg");
     /* background-image: url("https://wallpapercave.com/wp/wp4491116.jpg"); */
-   
+
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size:cover;
@@ -11,6 +10,24 @@ body {
     text-align: center;
 }
 
+.passenger-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    width: 50%;
+    top: 25%;
+    margin: auto;
+    padding: 10px;
+    background: transparent;
+    color: #000;
+    position: absolute;
+    left: 25%;
+    text-align: center;
+    border-radius: 5px;
+}
 
 h1 {
     margin-top: 10px;
@@ -31,25 +48,28 @@ button {
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
+    margin: 5px;
     border-radius: 5px;
+}
+
+/* added hover effect */
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
 }
 
 #increment-btn {
     background: darkred;
 }
 
-#increment-btn:hover {
-    background: red;
-    cursor: pointer;
-}
-
-
-
 #save-btn {
     background: darkgreen;
 }
 
-#save-btn:hover {
-    background: green;
-    cursor: pointer;
+.total {
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px;
 }
