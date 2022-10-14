@@ -17,13 +17,17 @@ body {
     height: 100vh;
     flex-direction: column;
     backdrop-filter: blur(10px);
+    position: relative;
     width: 50%;
+    height: 450px;
     top: 5%;
     margin: auto;
+    margin-top: 100px;
     padding: 10px;
-    background: rgb(255, 255, 255, 0.4);
-    position: absolute;
-    left: 25%;
+    background: transparent;
+    color: #000;
+    margin-bottom: 100px;
+    left: 2%;
     text-align: center;
     border-radius: 5px;
 }
@@ -72,3 +76,97 @@ button:hover {
     padding: 0px;
     margin: 0px;
 }
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top:530%;
+    position:  relative;
+    justify-content: space-around;
+    background-color: white;
+    border-top:rgb(215 220 218);
+    border-top-style: solid;
+    border-width: 0.01px;
+  }
+  .footname{
+    padding-top: 2px;
+    color: black;
+  }
+  .footside2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top:-10px;
+  }
+  .footside p{
+   font-size: 5em;
+   color: white;
+   position: relative;
+   padding-top: 300;
+  }
+  .social{
+    position: relative;
+    display: flex;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .social_icon{
+    position: relative;
+    background-color: rgb(215 220 218);
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+    padding-top:2px ;
+    align-items: center;
+  }
+  .social_icon img{
+  width: 15px;
+  height: 15px;
+  }
+  .footer_text{
+    font-size: 13px;
+  }
+  @media(max-width:672px){
+      .footer{
+        display: flex;
+        width: 150%;
+        height: 100px;
+        justify-content: space-around;
+        background-color: rgb(147, 40, 40);
+      }
+      .passenger-detail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        backdrop-filter: blur(10px);
+        position: relative;
+        width: 70%;
+        height: 550px;
+        top: 5%;
+        margin: auto;
+        margin-top: 100px;
+        padding: 10px;
+        background: transparent;
+        color: #000;
+        margin-bottom: 100px;
+        left: 2%;
+        text-align: center;
+        border-radius: 5px;
+    }
+      .footside2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        margin-top: -40px;
+        padding-top: 7px;
+      }
+  }
+  
