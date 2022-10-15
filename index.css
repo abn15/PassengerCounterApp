@@ -1,31 +1,56 @@
-body {
-    background-image: url("https://c1.wallpaperflare.com/preview/93/533/221/train-passenger-train-sbb-db.jpg");
-    /* background-image: url("https://wallpapercave.com/wp/wp4491116.jpg"); */
 
+body {
+    /*background-image: url("https://c1.wallpaperflare.com/preview/93/533/221/train-passenger-train-sbb-db.jpg");*/
+    /* background-image: url("https://wallpapercave.com/wp/wp4491116.jpg"); */
+    background-image: url("images/background.png");
+    margin: 0;
+    border: 0;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size:cover;
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    overflow: hidden;
 }
 
 .passenger-detail {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+    top:10vh;
+    height: 80vh;
+    flex-direction: row;
     backdrop-filter: blur(10px);
     width: 50%;
-    top: 5%;
     margin: auto;
     padding: 10px;
     background: rgb(255, 255, 255, 0.4);
-    position: absolute;
-    left: 25%;
+    position: relative;
+    border-right: 25%;
     text-align: center;
     border-radius: 5px;
+}
+
+
+#count-operations{
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    left:7.5%;
+    top:10%;
+    width:40%;
+    
+
+}
+
+#passenger-data{
+    position: absolute;
+    display: felx;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    right:7.5%;
+    top:10%;
 }
 
 h1 {
@@ -71,4 +96,16 @@ button:hover {
     font-size: 2rem;
     padding: 0px;
     margin: 0px;
+}
+
+@media only screen and (max-width: 1280px) {
+    body{
+        background-image: url(images/background_13.png);
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .passenger-detail{
+        width: 80%;
+    }
 }
