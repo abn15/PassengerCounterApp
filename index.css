@@ -2,7 +2,7 @@
 body {
     /*background-image: url("https://c1.wallpaperflare.com/preview/93/533/221/train-passenger-train-sbb-db.jpg");*/
     /* background-image: url("https://wallpapercave.com/wp/wp4491116.jpg"); */
-    background-image: url("images/background.jpg");
+    background-image: url("images/background.png");
     margin: 0;
     border: 0;
     box-sizing: border-box;
@@ -96,6 +96,12 @@ button:hover {
     font-size: 2rem;
     padding: 0px;
     margin: 0px;
+}
+
+@media only screen and (max-width: 1280px) {
+    body{
+        background-image: url(images/background_13.png);
+    }
 }
 
 @media only screen and (max-width: 790px) {
