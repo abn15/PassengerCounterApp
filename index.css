@@ -92,6 +92,11 @@ button:hover {
     background: darkgreen;
 }
 
+#reset-btn {
+    background: rgb(58, 58, 79);
+    width: 100px;
+}
+
 .total {
     font-size: 2rem;
     padding: 0px;

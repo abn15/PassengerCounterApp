@@ -7,6 +7,7 @@ let count = 0
 let total =0
 let child = 0
 let adult = 0
+let countStr = ""
 
 increment = () => {
     count += 1
@@ -16,7 +17,7 @@ increment = () => {
 }
 
 save = () => {
-    let countStr = count + " - "
+    countStr = count + " - "
     saveEl.textContent += countStr
     countEl.textContent=0
     count =0
@@ -29,4 +30,17 @@ childincrement = () => {
 adultincrement = () =>{
     adult+= 1
     adultEl.innerText = adult
+}
+
+reset = () =>{
+    count = 0
+    total =0
+    child = 0
+    adult = 0
+    countEl.innerText = count
+    totalEl.innerText = total
+    adultEl.innerText = adult
+    childEl.innerText = child
+    countStr = ""
+    saveEl.textContent = countStr
 }
