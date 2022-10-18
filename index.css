@@ -152,7 +152,8 @@ button:hover {
     padding: 0;
   } 
   #count-operations {
-    margin-left:25%;
+    margin-left:10%;
+    width: 70%;
   }
   
 }
