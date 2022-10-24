@@ -4,28 +4,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" type="image/x-icon" href="train.ico" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>PASSENGER COUNTER APP</title>
   </head>
   <body>
     <div class="passenger-detail">
+      <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+            <a class="mr-5 hover:text-gray-900"></a>
+            <a class="mr-5 hover:text-gray-900"></a>
+            <a class="mr-5 hover:text-gray-900"></a>
+            <a class="hover:text-gray-900"></a>
+          </nav>
+          <a class="flex order-first lg:order-none lg:w-1/5 title-font font-bold items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+            <img class="w-14 h-14 text-white p-2  rounded-full" src="travel.png" />
+            <span class="ml-3 text-3xl">Passengers</span>
+          </a>
+          <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+            
+          </div>
+        </div>
+      </header>
+
       <div class="passenger-detail-container">
         <div id="count-operations">
           <h1><strong>People Entered:</strong></h1>
           <h2 id="count-el">0</h2>
+          Adults:
           <button id="increment-btn" onclick="increment(), adultincrement()">
-            INCREMENT
-          </button>
-
-          <button id="save-btn" onclick="save()">SAVE</button>
+            INCREMENT 👨
+          </button><br>
+          <button id="save-btn" onclick="save()">SAVE 💾</button><br>
 
           Hey there kid:
           <button id="increment-btn" onclick="childincrement(), increment()">
-            INCREMENT
-          </button>
+            INCREMENT 🧒🏻
+          </button><br>
 
-          <p id="save-el">Previous Entries :</p>
+          <p id="save-el">Previous Entries :</p><br>
 
-          <Button id="reset-btn" onclick="reset()">RESET</button>
+          <Button id="reset-btn" onclick="reset()">RESET ↩</button>
         </div>
 
         <div id="passenger-data">
